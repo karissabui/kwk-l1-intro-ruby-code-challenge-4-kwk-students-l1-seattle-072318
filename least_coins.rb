@@ -26,6 +26,4 @@ end
  #pennies
 coins[:pennies] = cents
 puts coins
-  
-  
 end
