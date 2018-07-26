@@ -3,10 +3,10 @@ cents = gets.strip
 
 def least_coins(cents)
   coins = {
-    :quarters = 0
-    :dimes = 0 
-    :nickles = 0 
-    :pennies = 0
+    :quarters => 0 ,
+    :dimes =>0 ,
+    :nickles => 0 ,
+    :pennies => 0 
   }
   #quarters
 while cents >= 25
@@ -23,9 +23,9 @@ while cents >= 5
   coins[:nickles] += 1 
   cents = cents - 5 
 end 
-
-  
-  #pennies
+ #pennies
+coins[:pennies] = cents
+puts coins
   
   
 end
