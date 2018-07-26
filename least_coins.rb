@@ -1,6 +1,6 @@
 puts "Welcome to your least coin calculator! Please enter a number of cents."
 cents = gets.strip
-
+cents = cents.to_i
 def least_coins(cents)
   coins = {
     :quarters => 0 ,
