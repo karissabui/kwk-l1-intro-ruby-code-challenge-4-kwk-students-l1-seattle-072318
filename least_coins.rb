@@ -27,3 +27,5 @@ end
 coins[:pennies] = cents
 puts coins
 end
+
+puts least_coins(cents)
